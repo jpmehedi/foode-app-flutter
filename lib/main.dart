@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foode_app/home_screen.dart';
+import 'package:foode_app/primary_screen.dart';
 import 'package:foode_app/splash_screen.dart';
 
 void main() => runApp(MyApp());
@@ -10,10 +11,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Foode App',
-      initialRoute: HomeScreen.id,
+      initialRoute: PraimaryScreen.id,
       routes: {
         SplashScreen.id: (context) => SplashScreen(),
         HomeScreen.id: (context) => HomeScreen(),
+        PraimaryScreen.id: (context) => PraimaryScreen(),
       },
     );
   }

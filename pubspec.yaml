@@ -13,6 +13,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.3
+  font_awesome_flutter: ^8.8.1
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +24,18 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/
+    - images/food7.jpg
+    - images/food1.jpg
+    - images/food3.jpg
+    - images/food2.jpg
+    - images/slidericon.png
+    - images/splash.png
+    - images/profile.png
+    - images/home.png
+    - images/resturant.png
+    - images/bargains.png
+    - images/help.png
+    - images/foodtrans.png
 
 
   # fonts:
