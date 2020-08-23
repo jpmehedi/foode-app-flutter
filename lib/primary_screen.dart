@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:foode_app/food_details.dart';
 import 'package:foode_app/home_screen.dart';
 
 class PraimaryScreen extends StatefulWidget {
