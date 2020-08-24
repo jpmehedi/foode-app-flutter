@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:foode_app/google_map.dart';
 
 class FoodDetails extends StatefulWidget {
   static String id = 'FoodDetails';
@@ -13,7 +14,9 @@ class _FoodDetailsState extends State<FoodDetails> {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.white,
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushNamed(context, GoogleMapScreen.id);
+        },
         child: Icon(
           Icons.shopping_cart,
           color: Colors.purple,

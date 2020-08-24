@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foode_app/food_details.dart';
+import 'package:foode_app/google_map.dart';
 import 'package:foode_app/home_screen.dart';
 import 'package:foode_app/primary_screen.dart';
 import 'package:foode_app/splash_screen.dart';
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
         HomeScreen.id: (context) => HomeScreen(),
         PraimaryScreen.id: (context) => PraimaryScreen(),
         FoodDetails.id: (context) => FoodDetails(),
+        GoogleMapScreen.id: (context) => GoogleMapScreen(),
       },
     );
   }
